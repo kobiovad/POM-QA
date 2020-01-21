@@ -24,7 +24,8 @@ namespace Tests2.BaseClass
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Url = "https://www.youtube.com/";
+            //driver.Url = "https://www.youtube.com/";
+            driver.Url = "https://tcb.ac.il/";
 
         }
         
